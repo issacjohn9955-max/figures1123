@@ -1,0 +1,20 @@
+module	stem	revision	title	provenance	condition
+world_distribution_map	fig_china_real_world_china		World map and China detail	Historical cohort	Rebuild for the chosen cohort and location evidence.
+china_sampling_map	fig1_province_counts		Province counts	Historical cohort	Use where provenance supports province-level assignment.
+china_sampling_map	fig2_sampling_sites		Site map with regional detail	Historical cohort	Requires verified sites and boundary data.
+fig1b_pca	fig1b_pca		Side-by-side marker PCA	Historical cohort	Requires paired SNP and SV data for the same individuals.
+pca_climate_zone	fig_pca_te_climate		TE PCA by climate zone	Historical cohort	Requires climate-zone assignments for the plotted individuals.
+pca_climate_zone	fig_pca_snp_climate		SNP PCA by climate zone	Historical cohort	Requires matched SNP PCA and climate zones.
+fig1c_tree_admixture	fig1c_tree_admixture	Fig1C	Tree and admixture alignment	Historical English revision	Requires a matched tree, ancestry proportions and IDs.
+fig2_environment	fig2_environment	Fig2	Climate context and environment correlations	Historical English revision	Requires matched WorldClim rasters and environmental metadata.
+fig3_rda	fig3_rda	Fig3	Ordination, environmental vectors and axis tests	Historical English revision	Use component values and scores from a single fitted model.
+fig4_evidence	fig4_evidence	Fig4	Evidence across association methods	Historical English revision	Keep SV–environment pairs and unique SV alleles distinct.
+fig5_te	fig5_te	Fig5	TE composition and family enrichment	Historical English revision	Requires validated TE annotation and eligible background.
+fig1_chicken_GRCg7b_circos	07_figures/R_v16/chicken_GRCg7b_R_v16_combined_TE-callouts		Genome-wide Circos with TE structures	Historical genome summary	Requires a shared reference build and defined density tracks.
+corr_ci_scatter	corr_ci_scatter		Association-statistic comparison	Historical cohort	Use aligned statistics. Inference requires an appropriate dependence model.
+gea_driver_radar	radar_chickente_te		Environment-by-method radar	Historical cohort	Use a common counting unit and document tested denominators.
+gea_marginal_scatter	gea_marginal_scatter		Association statistics with marginal views	Synthetic layout	Use summary statistics from matched loci and environments.
+niche_overlap_null	niche_overlap_null		Niche overlap and a null distribution	Historical layout	Use a documented environmental space and a defined null model.
+te_factor_polar	te_factor_polar		Unique and shared environmental associations	Historical cohort	Requires a fixed significance rule and an explicit unit of counting.
+te_ibe_adaptive_neutral	te_ibe_adaptive_neutral		Isolation by distance and environment	Historical cohort	Requires distances, site groups and a permutation design.
+variable_contribution	variable_contribution		Climate driver contribution	Historical cohort	Requires a defined importance metric and matching fitted model.

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "project_figures": {
+    "observed": 20,
+    "synthetic": 7
+  },
+  "reference_figures": 19,
+  "reference_modules": 17,
+  "gallery_pages": 49,
+  "gallery_sha256": "fb99a65ab234ff212f352022ad702d80167a1906ff240212078c4316b9ff689e",
+  "upstream_commit": "2128a965825251e39fedf6599ab2efd182c89d1a"
+}

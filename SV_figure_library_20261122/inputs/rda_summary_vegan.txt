@@ -1,0 +1,112 @@
+Mature-software partial RDA validation (vegan)
+vegan_version: 2.7.6
+R_version: 4.5.3
+seed: 20261117 permutations: 999
+samples: 25 loci: 72260 environment_variables: 5
+environment: bio3,bio15,bio18,wind,srad
+condition: lon + lat + PC1 + PC2 + PC3
+total_inertia: 72260
+constrained_inertia: 11719.023
+constrained_fraction: 0.16217857
+
+Global model test:
+Permutation test for rda under reduced model
+Permutation: free
+Number of permutations: 999
+
+Model: rda(formula = Y ~ bio3 + bio15 + bio18 + wind + srad + Condition(lon + lat + PC1 + PC2 + PC3), data = meta, na.action = na.omit)
+         Df Variance      F Pr(>F)  
+Model     5    11719 1.1718  0.026 *
+Residual 14    28003                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+By terms:
+Permutation test for rda under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 999
+
+Model: rda(formula = Y ~ bio3 + bio15 + bio18 + wind + srad + Condition(lon + lat + PC1 + PC2 + PC3), data = meta, na.action = na.omit)
+         Df Variance      F Pr(>F)  
+bio3      1   2416.5 1.2081  0.118  
+bio15     1   2389.7 1.1947  0.094 .
+bio18     1   2116.4 1.0581  0.294  
+wind      1   1901.9 0.9509  0.604  
+srad      1   2894.5 1.4471  0.012 *
+Residual 14  28002.9                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+By margin:
+Permutation test for rda under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+Model: rda(formula = Y ~ bio3 + bio15 + bio18 + wind + srad + Condition(lon + lat + PC1 + PC2 + PC3), data = meta, na.action = na.omit)
+         Df Variance      F Pr(>F)  
+bio3      1   2344.2 1.1720  0.142  
+bio15     1   2480.7 1.2402  0.057 .
+bio18     1   2712.6 1.3562  0.031 *
+wind      1   2293.6 1.1467  0.149  
+srad      1   2894.5 1.4471  0.012 *
+Residual 14  28002.9                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+By axis:
+Permutation test for rda under reduced model
+Forward tests for axes
+Permutation: free
+Number of permutations: 999
+
+Model: rda(formula = Y ~ bio3 + bio15 + bio18 + wind + srad + Condition(lon + lat + PC1 + PC2 + PC3), data = meta, na.action = na.omit)
+         Df Variance      F Pr(>F)  
+RDA1      1   3565.0 1.7823  0.054 .
+RDA2      1   2526.3 1.3532  0.273  
+RDA3      1   2071.7 1.1837  0.618  
+RDA4      1   1886.4 1.1452  0.618  
+RDA5      1   1669.7 1.0733  0.618  
+Residual 14  28002.9                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+significant axes: 
+outlier TEs: 0
+
+REVISION SCREEN
+{
+  "cohort": "evidence",
+  "global_p": 0.026,
+  "significant_axes_BH": [],
+  "z_threshold": 3.0,
+  "candidate_counts": {
+    "3.0": 0,
+    "3.5": 0,
+    "4.0": 0
+  },
+  "old_abs_gate_count": 0,
+  "model_and_permutations_reused": false,
+  "input_hashes": [
+    {
+      "file": "rda_frequency.csv",
+      "new_sha256": "f0c203f847388baaac3348f1a8b1f0b34ba9247a47052ef7a581932445ae224a",
+      "old_sha256": "f0c203f847388baaac3348f1a8b1f0b34ba9247a47052ef7a581932445ae224a"
+    },
+    {
+      "file": "rda_environment.csv",
+      "new_sha256": "5f6c86e740bdec20428e842ab2bb1cff4a531150733564abdc9f54083c80bc4c",
+      "old_sha256": "5b480e8efc9255b46a19139359a328d88a53d62a2c971abaea2d2fa4fb4f27c1"
+    },
+    {
+      "file": "group_SV_PCs.tsv",
+      "new_sha256": "b7a0e408576e338b10b42c13346710d7f7f39c39f2dceccdff63416d3aeb95f5",
+      "old_sha256": "b7a0e408576e338b10b42c13346710d7f7f39c39f2dceccdff63416d3aeb95f5"
+    }
+  ],
+  "locus_FDR_control_claimed": false,
+  "rule": "global p<0.05 AND within-model axis BH q<0.05 AND abs(standardized axis loading)>3; exploratory locus tails",
+  "heuristic_sensitivity": "3.5 and 4 SD are fixed sensitivity rules; no selection by yield",
+  "limitations": "Unrestricted coordinate-group permutation assumes exchangeability; representative climates and structured ancestry limit causal interpretation."
+}

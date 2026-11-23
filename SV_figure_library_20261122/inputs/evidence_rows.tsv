@@ -1,0 +1,32 @@
+cohort	sv_id	variable	rho	q	K5	K10	K15	RDA
+Main	SV001881_A1	bio3	-0.9453147768782934	2.5670246003596952e-05	Below threshold	Below threshold	Below threshold	No eligible axis
+Expanded A	SV007830_A1	bio3	-0.781730916453922	0.0302854943126608	Not tested	Not tested	Not tested	Below threshold
+Expanded A	SV057846_A1	bio3	0.7749696249962359	0.0302854943126608	Not tested	Not tested	Not tested	Below threshold
+Expanded A	SV051976_A1	bio3	0.7642123884011736	0.03069677785852	Below threshold	Pass	Pass	Below threshold
+Expanded A	SV022318_A1	bio3	0.7546467860905551	0.03069677785852	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV074592_A1	bio3	-0.7530627131813927	0.03069677785852	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV065610_A1	bio3	-0.753227380651971	0.03069677785852	Not tested	Not tested	Not tested	Below threshold
+Expanded A	SV011685_A1	bio3	0.7419901721413688	0.0436515190417942	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV015261_A1	bio3	-0.7350094759443089	0.0436515190417942	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV031235_A1	bio3	0.7341008900612932	0.0436515190417942	Not tested	Not tested	Not tested	Below threshold
+Expanded A	SV048623_A1	bio3	0.7322013647845856	0.0436515190417942	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV023391_A1	bio3	0.7362620802185632	0.0436515190417942	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded A	SV045954_A1	bio3	-0.7288427155651661	0.0463100274056376	Not tested	Not tested	Not tested	Below threshold
+Expanded B	SV011685_A1	bio3	0.779374682644821	0.0399974535427271	Below threshold	Below threshold	Below threshold	Below threshold
+Expanded B	SV057846_A1	bio3	0.7719710722731152	0.0399974535427271	Not tested	Not tested	Not tested	Below threshold
+Expanded B	SV065610_A1	bio3	-0.7709145936009912	0.0399974535427271	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV007830_A1	bio3	-0.7804699605376755	0.0308793678094726	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV074592_A1	bio3	-0.7612000542991563	0.0308793678094726	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV065610_A1	bio3	-0.7644020576622047	0.0308793678094726	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV051976_A1	bio3	0.7631796209786132	0.0308793678094726	Below threshold	Pass	Pass	Below threshold
+Identity A	SV022318_A1	bio3	0.7545365196847174	0.0343005645526815	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV057846_A1	bio3	0.7499920857929945	0.0355471420947203	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV011685_A1	bio3	0.7425232952325007	0.0431752425849383	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV001260_A1	bio3	0.7253486079658154	0.0483975232208934	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV031235_A1	bio3	0.7341161608631495	0.0483975232208934	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV023391_A1	bio3	0.7367986751244351	0.0483975232208934	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV015261_A1	bio3	-0.7300807534547346	0.0483975232208934	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV001184_A1	bio3	-0.7242972055343074	0.0483975232208934	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV045954_A1	bio3	-0.7293802262751236	0.0483975232208934	Not tested	Not tested	Not tested	Below threshold
+Identity A	SV048623_A1	bio3	0.7242046051555153	0.0483975232208934	Below threshold	Below threshold	Below threshold	Below threshold
+Identity A	SV051369_A1	bio3	0.72189574993186	0.049786092149484	Below threshold	Below threshold	Below threshold	Below threshold

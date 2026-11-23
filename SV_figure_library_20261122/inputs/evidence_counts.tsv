@@ -1,0 +1,6 @@
+cohort	partial_n	partial_n_min	partial_hits	lfmm_n	lfmm_n_min	lfmm_hits	rda_n	rda_hits	both_rda_lfmm	strict
+Main	75430	75430	1	52993	52993	1451	72260	0	0	0
+Expanded A	75763	75763	12	52757	52757	915	71752	240	3	0
+Expanded B	75752	75752	3	52757	52757	850	71082	547	10	0
+Identity A	75755	75755	15	52828	52828	914	71744	237	3	0
+Identity B	75743	75743	0	52828	52828	852	71070	543	9	0

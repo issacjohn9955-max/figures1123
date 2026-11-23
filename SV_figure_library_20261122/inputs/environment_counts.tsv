@@ -1,0 +1,6 @@
+variable	tested	significant_rank	finite_p	significant_lfmm
+bio15	75430	0	52993	80
+bio18	75430	0	52993	439
+bio3	75430	1	52993	840
+srad	75430	0	52993	237
+wind	75430	0	52993	160

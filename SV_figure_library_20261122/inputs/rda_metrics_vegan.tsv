@@ -1,0 +1,12 @@
+metric	value
+samples	25
+loci	72260
+environment_variables	5
+constrained_fraction	0.16217857
+global_p	0.026
+significant_axes	
+outlier_TEs	0
+vegan_version	2.7.6
+seed	20261117
+outlier_SV_alleles	0
+screen_rule	global p<0.05 AND within-model axis BH q<0.05 AND abs(standardized axis loading)>3; exploratory locus tails
